@@ -4,13 +4,13 @@
   "description": "",
   "authors": "",
   "version": "1.0.0",
-  "main": "pathToMain",
+  "main": "app.js",
   "dependencies": {
     "express": "^4.18.2",
     "nodemon": "^3.1.0"
   },
   "scripts": {
-    "start": "node src/app.js",
-    "test": "nodemon src/app.js"
+    "start": "node app.js",
+    "test": "nodemon app.js"
   }
 }
